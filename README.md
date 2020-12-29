@@ -21,6 +21,7 @@ A simple test can be started as follows.
 ```bash
 cd bin
 mkdir data # Create a director for the data base
+export GODEBUG=cgocheck=0
 ./tagionwave -N 11 --loops 1000
 ```
 
